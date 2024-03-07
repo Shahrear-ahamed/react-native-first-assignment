@@ -95,7 +95,13 @@ const styles = StyleSheet.create({
   profileName: { fontSize: 18, fontWeight: "bold" },
   profileUsername: { fontSize: 14, color: "skyblue" },
   profileJoined: { fontSize: 16, color: "#8898AF", marginTop: 5 },
-  bio: { fontSize: 16, color: "#8898AF", marginTop: 10, marginBottom: 10 },
+  bio: {
+    fontSize: 16,
+    color: "#8898AF",
+    marginTop: 10,
+    marginBottom: 10,
+    lineHeight: 25,
+  },
   data: {
     display: "flex",
     flexDirection: "row",
